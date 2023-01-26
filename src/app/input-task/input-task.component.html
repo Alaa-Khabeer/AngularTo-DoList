@@ -1,0 +1,10 @@
+<div class="back">
+    <div class="example-form">
+      <p class="title">To-Do App!</p>
+      <mat-label class="label">Add New To-Do</mat-label>
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Enter new task" aria-describedby="btn" [(ngModel)]="newTask">
+      </mat-form-field>
+      <button mat-raised-button id="btn" (click)="Send()">Add</button>
+    </div>
+  </div>

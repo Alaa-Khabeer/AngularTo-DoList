@@ -1,0 +1,44 @@
+.task_back{
+    background-color: black;
+    padding: 10px;
+    min-height: 269px;
+    max-height: 500px;
+    color:#ccdb38;
+}
+
+.task_title{
+text-align: center;
+font-size: 20px;
+margin-top: 50px;
+}
+
+hr{
+    border: #ccdb38 solid 1px;
+    border-radius: 5px;
+    width: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tbl{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tsk_btn{
+  background-color: #cbdb3800;
+  border: #ccdb38 1px solid;
+  color: #ccdb38;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tsk_btn:hover{
+  opacity: 0.9;
+  box-shadow: 0 0 5px #717a1e;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+}

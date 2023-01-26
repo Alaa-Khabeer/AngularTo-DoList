@@ -1,0 +1,13 @@
+<div class="task_back">
+    <p class="task_title">Let's get some work done!</p>
+    <hr>
+    <table class="tbl">
+    <tbody>
+      <tr *ngFor="let tsk of tasks; let i = index;">
+        <button class="tsk_btn" (click)="complete(i)">{{lbl}}</button>
+        <td style="padding-left: 15px; padding-right: 15px;" class="{{(tsk.isCompleted)?'complete':''}}">{{tsk.txt}}</td>
+        <button class="tsk_btn" (click)="Delete(i)">X</button>
+      </tr>
+    </tbody>
+    </table>
+    </div>
